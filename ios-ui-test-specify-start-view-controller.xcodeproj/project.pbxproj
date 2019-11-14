@@ -14,6 +14,8 @@
 		16C916D0237DAF1F0020FC9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16C916CF237DAF1F0020FC9F /* Assets.xcassets */; };
 		16C916D3237DAF1F0020FC9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C916D1237DAF1F0020FC9F /* LaunchScreen.storyboard */; };
 		16C916DE237DAF1F0020FC9F /* ios_ui_test_specify_start_view_controllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C916DD237DAF1F0020FC9F /* ios_ui_test_specify_start_view_controllerUITests.swift */; };
+		16C916E9237DB21B0020FC9F /* StoryBlack.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C916E8237DB21B0020FC9F /* StoryBlack.storyboard */; };
+		16C916EB237DB2420020FC9F /* StoryRed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16C916EA237DB2420020FC9F /* StoryRed.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		16C916D9237DAF1F0020FC9F /* ios-ui-test-specify-start-view-controllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-ui-test-specify-start-view-controllerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C916DD237DAF1F0020FC9F /* ios_ui_test_specify_start_view_controllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_ui_test_specify_start_view_controllerUITests.swift; sourceTree = "<group>"; };
 		16C916DF237DAF1F0020FC9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16C916E8237DB21B0020FC9F /* StoryBlack.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryBlack.storyboard; sourceTree = "<group>"; };
+		16C916EA237DB2420020FC9F /* StoryRed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StoryRed.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 				16C916CF237DAF1F0020FC9F /* Assets.xcassets */,
 				16C916D1237DAF1F0020FC9F /* LaunchScreen.storyboard */,
 				16C916D4237DAF1F0020FC9F /* Info.plist */,
+				16C916E8237DB21B0020FC9F /* StoryBlack.storyboard */,
+				16C916EA237DB2420020FC9F /* StoryRed.storyboard */,
 			);
 			path = "ios-ui-test-specify-start-view-controller";
 			sourceTree = "<group>";
@@ -180,9 +186,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16C916EB237DB2420020FC9F /* StoryRed.storyboard in Resources */,
 				16C916D3237DAF1F0020FC9F /* LaunchScreen.storyboard in Resources */,
 				16C916D0237DAF1F0020FC9F /* Assets.xcassets in Resources */,
 				16C916CE237DAF1C0020FC9F /* Main.storyboard in Resources */,
+				16C916E9237DB21B0020FC9F /* StoryBlack.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
