@@ -1,13 +1,6 @@
-//
-//  SceneDelegate.swift
-//  ios-ui-test-specify-start-view-controller
-//
-//  Created by Wasith Theerapattrathamrong on 14/11/2562 BE.
-//  Copyright © 2562 Wasith Theerapattrathamrong. All rights reserved.
-//
-
 import UIKit
 
+@available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
